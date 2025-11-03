@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh 'dir'
+                bat 'dir'
             }
         }
 
